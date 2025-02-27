@@ -1,0 +1,258 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #ff3d3d, #ff6a4d);
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 250px; /* Aumentei o tamanho da logo */
+    height: auto;
+    margin-bottom: 10px;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin: 10px 0;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.15); /* Efeito vidro */
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#menu .pizza {
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+#menu .pizza:hover {
+    transform: translateY(-10px);
+}
+
+.pizza .preco {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff4d4d;
+    margin-top: 10px;
+}
+
+#menu .pizza img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #ff6348;
+}
+
+#menu .pizza h3 {
+    margin: 10px 0;
+    color: #000000;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#menu .pizza {
+    display: inline-block;
+    width: 30%;
+    margin: 1.66%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+footer {
+    background: linear-gradient(135deg, #ff4d4d, #ff6348);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+#contato img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+nav ul li a:hover {
+    color: #ffe19c;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#menu .pizza {
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+#menu .pizza:hover {
+    transform: translateY(-10px);
+}
+
+#menu .pizza img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #ff6348;
+}
+
+#menu .pizza h3 {
+    margin: 10px 0;
+    color: #000000;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#menu .pizza {
+    display: inline-block;
+    width: 30%;
+    margin: 1.66%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+footer {
+    background: linear-gradient(135deg, #ff4d4d, #ff6348);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+#contato img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
