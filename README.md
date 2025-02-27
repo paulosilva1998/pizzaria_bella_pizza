@@ -34,3 +34,5 @@ Este projeto é um site completo para a Pizzaria Bella Pizza, desenvolvido com H
 ![Captura de tela 2025-02-27 114724](https://github.com/user-attachments/assets/10dbaa90-adf3-4e88-b255-52d4e7ba4be8)
 
 ## Vídeo rodando e usando o site!!
+
+https://github.com/user-attachments/assets/c1e5c0e1-5a95-4a92-b040-a1645a9bec37
